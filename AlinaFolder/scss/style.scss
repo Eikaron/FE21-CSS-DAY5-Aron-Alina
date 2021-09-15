@@ -31,7 +31,7 @@ nav {
 }
 
 section {
-   background-image: url(img/Einstein.jpg);
+   background-image: url(../img/Einstein.jpg);
    background-position: center;
    background-size: cover;
    min-height: 600px;
@@ -51,7 +51,6 @@ section {
             display: block;
         }
     }
-  
 }
 
 footer {
@@ -65,7 +64,7 @@ footer {
 @media  screen and (max-width: 1200px) {
 
     section {
-        h1,p {
+        h1, p {
             color: orangered;
             font-weight: bold;
         }
@@ -78,9 +77,5 @@ footer {
         h1 {
             padding-bottom: 0;
         }
-    }
-    
-
-
-    
+    }   
 }

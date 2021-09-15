@@ -1,1 +1,175 @@
+<<<<<<< HEAD
 /* No CSS *//*# sourceMappingURL=style.css.map */
+=======
+header {
+  background-color: rosybrown;
+  text-align: center;
+  vertical-align: middle;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 22pt;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  border: 2px solid black;
+}
+
+#headertext {
+  margin-top: 4.5vw;
+  padding: 0;
+}
+
+#headerimg {
+  margin: 1vw;
+  width: 20vw;
+  height: auto;
+  padding: 2%;
+  justify-self: flex-end;
+}
+
+ul {
+  background-color: tomato;
+  margin-top: 0vw;
+  margin-bottom: 0vw;
+  height: 50px;
+}
+
+li {
+  list-style: none;
+  display: inline;
+  padding: 20px;
+  font-size: 18pt;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  position: relative;
+  top: 12px;
+  left: 50vw;
+}
+
+footer {
+  background-color: rosybrown;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12pt;
+  padding-bottom: 1%;
+}
+
+#bottomlogo img {
+  margin: auto;
+  height: auto;
+  width: 15%;
+  padding: 1%;
+}
+
+body {
+  width: 80vw;
+  background-color: white;
+  position: relative;
+  left: 10vw;
+}
+
+h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 40pt;
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 24pt;
+  margin-top: 0;
+  padding-left: 3vw;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+div {
+  display: inline-block;
+}
+
+#divphone {
+  width: 80vw;
+}
+
+#divcard {
+  width: 39vw;
+}
+
+#divscooter {
+  width: 39vw;
+  position: relative;
+  left: 1vw;
+}
+
+#phone {
+  width: 74vw;
+  height: 20vw;
+  position: relative;
+  left: 3vw;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: 0 -14vw;
+     object-position: 0 -14vw;
+}
+
+#card, #scooter {
+  width: 35vw;
+  height: 20vw;
+  padding-left: 3vw;
+  padding-right: 0px;
+  padding-bottom: 1vw;
+}
+
+#scooter {
+  padding-left: 2vw;
+  padding-bottom: 1vw;
+}
+
+#yoga {
+  text-align: center;
+  color: hotpink;
+}
+
+iframe {
+  display: block;
+  margin: auto;
+  width: 50%;
+  padding-bottom: 3vw;
+}
+
+/* "CONTACT" SECTION */
+form {
+  font-size: 40pt;
+  margin: auto;
+  padding: 1vw;
+  text-align: center;
+}
+
+input {
+  padding: 1vw;
+  text-align: center;
+}
+
+.textfield {
+  width: 30vw;
+}
+
+#robo {
+  text-align: center;
+  font-size: large;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 0;
+}
+
+#sub {
+  background-color: orange;
+  font-weight: bold;
+}
+/*# sourceMappingURL=style.css.map */
+>>>>>>> 8344be57c4500eacfac83ec1a7e64ecfa0dc3da7
