@@ -1,11 +1,12 @@
 .headernavbar {
   width: 85vw;
   height: 4vw;
-  background-color: #aaa5a5;
+  background-color: #b85858;
 }
 
 blockquote {
-  background-image: linear-gradient blue green;
+  color: white;
+  border: 1px solid white;
 }
 
 body {
@@ -47,6 +48,7 @@ main {
 
 main img {
   max-width: 42vw;
+  max-height: 100%;
 }
 
 ul {
