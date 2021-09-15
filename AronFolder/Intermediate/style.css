@@ -6,7 +6,11 @@
 
 blockquote {
   color: white;
+<<<<<<< HEAD
   border: 1px solid white;
+=======
+  background-image: linear-gradient blue green;
+>>>>>>> 45deba36b3080188514a887b50788fa8f008a3e4
 }
 
 body {
