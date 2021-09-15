@@ -1,3 +1,15 @@
+header, footer {
+  width: 85vw;
+  height: 10vh;
+  background-color: #6c3a6e;
+  margin: 1vw auto 0;
+}
+
+footer {
+  height: 5vw;
+  margin: 0 auto;
+}
+
 .headernavbar {
   width: 85vw;
   height: 4vw;
@@ -6,11 +18,7 @@
 
 blockquote {
   color: white;
-<<<<<<< HEAD
   border: 1px solid white;
-=======
-  background-image: linear-gradient blue green;
->>>>>>> 45deba36b3080188514a887b50788fa8f008a3e4
 }
 
 body {
@@ -24,18 +32,6 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  margin: 0 auto;
-}
-
-header, footer {
-  width: 85vw;
-  height: 10vh;
-  background-color: #6c3a6e;
-  margin: 1vw auto 0;
-}
-
-footer {
-  height: 5vw;
   margin: 0 auto;
 }
 
@@ -59,9 +55,8 @@ ul {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
   list-style: none;
   margin: 1vw;
   color: white;
