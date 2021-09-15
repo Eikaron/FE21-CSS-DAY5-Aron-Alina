@@ -75,11 +75,14 @@ div {
 }
 
 #scooter {
-    width: 35vw;
-    height: 20vw;
+
+   @extend #card;
+
     padding-left: 2vw;
     padding-bottom: 1vw;
 
 }
 
+
+// Yoga 
 
