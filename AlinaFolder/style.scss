@@ -1,0 +1,86 @@
+html {
+    box-sizing: border-box;
+    margin: 0 auto;
+    width: 80%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header {
+    background-color: rgb(240, 237, 233);
+    padding: 1rem;
+}
+
+nav {
+    
+    ul {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+        li {
+            display: inline-block;
+            margin-right: 2rem;
+            a {
+                display: block;
+                text-decoration: none;
+                color: black;
+            }
+        }
+        
+    }
+
+}
+
+section {
+   background-image: url(img/Einstein.jpg);
+   background-position: center;
+   background-size: cover;
+   min-height: 600px;
+
+   h1, p {
+       color: whitesmoke;
+    }
+
+    h1 {
+        margin: 0;
+        padding: 4rem;
+    }
+    p {
+        font-family: cursive;
+        margin-top: 5rem;
+        span {
+            display: block;
+        }
+    }
+  
+}
+
+footer {
+    background-color: rgb(240, 237, 233);
+    padding: .3rem;
+    p {
+        text-align: center;
+    }
+}
+
+@media  screen and (max-width: 1200px) {
+
+    section {
+        h1,p {
+            color: orangered;
+            font-weight: bold;
+        }
+        p {
+            margin-top: 0;
+            span {
+                display: inline;
+            }
+        }
+        h1 {
+            padding-bottom: 0;
+        }
+    }
+    
+
+
+    
+}

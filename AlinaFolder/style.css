@@ -1,0 +1,80 @@
+html {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0 auto;
+  width: 80%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header {
+  background-color: #f0ede9;
+  padding: 1rem;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-right: 2rem;
+}
+
+nav ul li a {
+  display: block;
+  text-decoration: none;
+  color: black;
+}
+
+section {
+  background-image: url(img/Einstein.jpg);
+  background-position: center;
+  background-size: cover;
+  min-height: 600px;
+}
+
+section h1, section p {
+  color: whitesmoke;
+}
+
+section h1 {
+  margin: 0;
+  padding: 4rem;
+}
+
+section p {
+  font-family: cursive;
+  margin-top: 5rem;
+}
+
+section p span {
+  display: block;
+}
+
+footer {
+  background-color: #f0ede9;
+  padding: .3rem;
+}
+
+footer p {
+  text-align: center;
+}
+
+@media screen and (max-width: 1200px) {
+  section h1, section p {
+    color: orangered;
+    font-weight: bold;
+  }
+  section p {
+    margin-top: 0;
+  }
+  section p span {
+    display: inline;
+  }
+  section h1 {
+    padding-bottom: 0;
+  }
+}
+/*# sourceMappingURL=style.css.map */
