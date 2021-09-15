@@ -5,6 +5,7 @@
 }
 
 blockquote {
+  color: white;
   background-image: linear-gradient blue green;
 }
 

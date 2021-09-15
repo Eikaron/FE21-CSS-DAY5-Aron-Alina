@@ -29,7 +29,7 @@ nav ul li a {
 }
 
 section {
-  background-image: url(img/Einstein.jpg);
+  background: url(../img/Einstein.jpg);
   background-position: center;
   background-size: cover;
   min-height: 600px;
@@ -78,6 +78,3 @@ footer p {
   }
 }
 /*# sourceMappingURL=style.css.map */
-
-/* No CSS *//*# sourceMappingURL=style.css.map */
-
