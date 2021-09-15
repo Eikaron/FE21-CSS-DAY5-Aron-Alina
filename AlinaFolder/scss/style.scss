@@ -61,7 +61,19 @@ footer {
     }
 }
 
-@media  screen and (max-width: 1200px) {
+@media  screen and (max-width: 480px) {
+    nav {
+        ul {
+            li {
+                display: column;
+                margin-right: 0;
+            }
+                           
+        }
+    }
+}
+
+@media  screen and (min-width: 481px) and (max-width: 1200px) {
 
     section {
         h1, p {
@@ -79,3 +91,4 @@ footer {
         }
     }   
 }
+
