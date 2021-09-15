@@ -1,0 +1,74 @@
+.headernavbar {
+  width: 85vw;
+  height: 4vw;
+  background-color: #aaa5a5;
+}
+
+blockquote {
+  background-image: linear-gradient blue green;
+}
+
+body {
+  width: 100vw;
+  height: 800vh;
+  color: black;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 0 auto;
+}
+
+header, footer {
+  width: 85vw;
+  height: 10vh;
+  background-color: #6c3a6e;
+  margin: 1vw auto 0;
+}
+
+footer {
+  height: 5vw;
+  margin: 0 auto;
+}
+
+main {
+  width: 85vw;
+  height: 100vh;
+  background-color: #8f7e94;
+  margin: 0 auto;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 50% 50%;
+      grid-template-columns: 50% 50%;
+}
+
+main img {
+  max-width: 42vw;
+}
+
+ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  list-style: none;
+  margin: 1vw;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 1.5vw;
+}
+
+h1 {
+  text-align: center;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 40pt;
+  margin: 1vw;
+}
+/*# sourceMappingURL=style.css.map */
